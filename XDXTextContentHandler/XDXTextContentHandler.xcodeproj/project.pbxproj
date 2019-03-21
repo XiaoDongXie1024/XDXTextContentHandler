@@ -13,6 +13,7 @@
 		23D66534224364A400437F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D66533224364A400437F53 /* Assets.xcassets */; };
 		23D66537224364A400437F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D66535224364A400437F53 /* LaunchScreen.storyboard */; };
 		23D6653A224364A400437F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D66539224364A400437F53 /* main.m */; };
+		23D66542224364E900437F53 /* XDXTextContentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D66541224364E900437F53 /* XDXTextContentHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		23D66536224364A400437F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23D66538224364A400437F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D66539224364A400437F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D66540224364E900437F53 /* XDXTextContentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDXTextContentHandler.h; sourceTree = "<group>"; };
+		23D66541224364E900437F53 /* XDXTextContentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDXTextContentHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				23D66535224364A400437F53 /* LaunchScreen.storyboard */,
 				23D66538224364A400437F53 /* Info.plist */,
 				23D66539224364A400437F53 /* main.m */,
+				23D66540224364E900437F53 /* XDXTextContentHandler.h */,
+				23D66541224364E900437F53 /* XDXTextContentHandler.m */,
 			);
 			path = XDXTextContentHandler;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D66542224364E900437F53 /* XDXTextContentHandler.m in Sources */,
 				23D6652F2243649F00437F53 /* ViewController.m in Sources */,
 				23D6653A224364A400437F53 /* main.m in Sources */,
 				23D6652C2243649F00437F53 /* AppDelegate.m in Sources */,
@@ -220,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,12 +292,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = XDXTextContentHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xdx.XDXTextContentHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdx.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,12 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = XDXTextContentHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xdx.XDXTextContentHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdx.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
